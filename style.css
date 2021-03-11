@@ -1,0 +1,39 @@
+.lila {
+	height: 50px;
+	width: 800px;
+	background-color: purple;
+	header-style: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.kék {
+	height: 30px;
+	width: 120px;
+	background-color: cyan;
+	border: 0px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+.citrom {
+	flex-grow: 4;
+	background-color: yellow;
+}
+
+.zöld {
+	flex-grow: 1;
+	background-color: lime;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 800px;
+	height: 500px;
+}
+
+.középső {
+	width: 170px ;
+}
